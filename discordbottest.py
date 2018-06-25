@@ -211,4 +211,4 @@ if __name__ == "__main__":
 			print("blin extensions fucked {}\n{}".format(extension, exc))
 			
 
-bot.run("NDU5NzA2NDc4NzQ4NjMxMDQw.Dg6Gpw.nTwZEzYwpjzPz3imMssD2CCmjvw")
+bot.run(os.getenv("TOKEN"))
